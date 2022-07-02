@@ -30,7 +30,6 @@ Scenario: Search Customer by EMailID
 	Then User should found Email in the Search table
 	And close browser 
 	
-	
 @regression
 Scenario: Search Customer by Name
 	Given User Launch Chrome browser 
